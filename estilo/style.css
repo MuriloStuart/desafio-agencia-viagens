@@ -6,3 +6,26 @@ D05353
 93A8AC
 FFC49B
  */
+ @charset "UTF-8";
+
+ @font-face {
+    font-family: 'Travelast';
+    src: url('Travelast.otf') format('opentype');
+    font-weight: normal;
+ }
+
+ :root{
+    --cor1: #9BE564;
+    --cor2: #D05353;
+    --cor3: #454545;
+    --cor4: #93A8AC;
+    --cor5: #FFC49B;
+   
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-viagem: 'Travelast', 'cursive';
+
+ }
+
+header > p{
+    font-family: var(--fonte-padrao);
+ }
