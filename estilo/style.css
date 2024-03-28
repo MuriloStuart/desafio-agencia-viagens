@@ -1,11 +1,3 @@
-/* 
-cores que pretendo usar
-9BE564
-D05353
-454545
-93A8AC
-FFC49B
- */
  @charset "UTF-8";
 
  @font-face {
@@ -32,7 +24,7 @@ FFC49B
  }
 
  body{
-   background-color: var(--cor5);
+   background-color: var(--cor1);
    font-family: var(--fonte-padrao);
  }
 
@@ -51,4 +43,43 @@ header{
 
  header > p{
    padding-bottom: 20px;
+   color: whitesmoke;
  }
+
+ main{
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  max-width: 850px;
+  min-width: 300px;
+  text-align: center;
+ }
+ main h2{
+  font-family: var(--fonte-viagem);
+  font-size: 2em;
+  font-weight: bolder;
+  margin-bottom: 20px;
+ }
+
+ main p{
+  text-align: center;
+  margin: 10px 0px;
+  padding: 0px 0px 10px 0px;
+  max-width: 800px;
+  min-width: 350px;
+ }
+
+ h3.paises{
+  text-align: center;
+  margin: 20px 0px;
+  font-weight: bolder;
+  text-decoration: underline;
+ }
+ p.intro{
+  text-align: justify;
+  text-indent: 1em;
+  margin: 20px 0px;
+  line-height: 1.5;
+  font-size: 1em;
+ }
+ 
