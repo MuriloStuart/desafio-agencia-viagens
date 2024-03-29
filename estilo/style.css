@@ -11,7 +11,7 @@
     --cor2: #D05353;
     --cor3: #454545;
     --cor4: #93A8AC;
-    --cor5: #ffd1af;
+    --cor5: #b7c7c7;
    
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-viagem: 'Travelast', 'cursive';
@@ -24,7 +24,7 @@
  }
 
  body{
-   background-color: var(--cor1);
+  background-color: var(--cor5);
    font-family: var(--fonte-padrao);
  }
 
@@ -34,7 +34,8 @@ header{
     min-height: 50px;
     padding-top: 25px;
     text-align: center;
- }
+    box-shadow: 4px 2px 4px;
+}
 
  header > h1{
    font-weight: bolder;
@@ -62,11 +63,10 @@ header{
  }
 
  main p{
-  text-align: center;
+  text-align: justify;
   margin: 10px 0px;
   padding: 0px 0px 10px 0px;
-  max-width: 800px;
-  min-width: 350px;
+  line-height: 1.5;
  }
 
  h3.paises{
@@ -82,4 +82,44 @@ header{
   line-height: 1.5;
   font-size: 1em;
  }
+
+ nav a{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+  font-size: 1em;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+ }
+
+ a:hover{
+  background-color: #93A8AC;
+ }
  
+footer{
+  margin: auto;
+  background-color:var(--cor4);
+  padding-bottom: 5px;
+}
+
+footer > p{
+  text-align: center;
+  text-indent: 1em;
+  padding: 5px;
+  font-weight: bolder;
+}
+li{
+  padding-left: 5px;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
