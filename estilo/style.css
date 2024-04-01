@@ -11,7 +11,7 @@
     --cor2: #D05353;
     --cor3: #454545;
     --cor4: #93A8AC;
-    --cor5: #ffd1af;
+    --cor5: #b7c7c7;
    
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-viagem: 'Travelast', 'cursive';
@@ -34,7 +34,8 @@ header{
     min-height: 50px;
     padding-top: 25px;
     text-align: center;
- }
+    box-shadow: 4px 2px 4px;
+}
 
  header > h1{
    font-weight: bold;
@@ -68,6 +69,21 @@ header{
  main h3{
    text-decoration: underline;
    padding: 15px;;
+ }
+
+ nav a{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+  font-size: 1em;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+ }
+
+ a:hover{
+  background-color: #93A8AC;
  }
  
  .intro > p{
