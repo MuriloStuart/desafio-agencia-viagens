@@ -24,7 +24,7 @@
  }
 
  body{
-   background-color: var(--cor3);
+   background-color: var(--cor4);
    font-family: var(--fonte-padrao);
  }
 
@@ -47,6 +47,7 @@ header{
    padding-bottom: 20px;
    color: rgb(255, 255, 255);
    font-weight: bold;
+   font-variant: small-caps;
  }
 
  main{
@@ -56,8 +57,8 @@ header{
   max-width: 1300px;
   min-width: 300px;
   text-align: center;
-  margin-bottom: 30px;
  }
+ 
  main h2{
   font-family: var(--fonte-viagem);
   font-size: 2.2em;
@@ -68,11 +69,56 @@ header{
    text-decoration: underline;
    padding: 15px;;
  }
-
+ 
  .intro > p{
-   text-align: justify;
-   text-indent: 2em;
-   font-size:large;
+  text-align: justify;
+  text-indent: 2em;
+  font-size:large;
+  line-height: 1.4em;
+}
+
+ div > p{
+   text-align: center;
+   font-size: large;
    line-height: 1.4em;
- }
+   padding-bottom: 20px;
+  }
+  
+  nav > a{
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+
+  nav > a:hover{
+    background-color: var(--cor4);
+    color: black;
+    font-weight: bold;
+  }
+  footer{
+    background-color: var(--cor3);
+    text-align: center;
+    color: rgb(230, 229, 229);
+  }
+
+  footer a {
+    text-decoration: none;
+    color: rgb(230, 229, 229);
+  }
+
+  footer li{
+    padding: 3px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+
+
+ 
  
