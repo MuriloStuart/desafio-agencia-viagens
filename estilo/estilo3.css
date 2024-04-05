@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+   font-family: 'Travelast';
+   src: url('Travelast.otf') format('opentype');
+   font-weight: normal;
+}
+
+:root{
+   --cor1: #9BE564;
+   --cor2: #D05353;
+   --cor3: #454545;
+   --cor4: #76888c;
+   --cor5: #b7c7c7;
+  
+   --fonte-padrao: arial, verdana, helvetica, sans-serif;
+   --fonte-viagem: 'Travelast', 'cursive';
+
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: var(--fonte-padrao);
+  }
+  
+  header{
+     font-family: var(--fonte-padrao);
+     background-image: linear-gradient(to bottom, var(--cor4), var(--cor3));
+     min-height: 5vh;
+     padding-top: 25px;
+     text-align: center;
+     box-shadow: black 4px 2px 4px;
+  }
+  
+  header > h1{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: var(--fonte-viagem);
+    font-size: 3em;
+  }
+  
+  header > p{
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+
+  /* Conteúdo principal */
+
+  section{
+    background-color: white;
+  }
+
+  img{
+    max-width: 100%;
+    display: block;
+  }
+
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+
+
+
+
+
+
+  /* Rodapé */
+  footer{
+    background-color: var(--cor3);
+    text-align: center;
+    color: rgb(230, 229, 229);
+    box-shadow: black 4px -2px 4px;
+  }
+  footer>p{
+    font-size: 3vh;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: rgb(230, 229, 229);
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 3vh;
+  }
+
+  footer li{
+    padding: 3px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  i{
+    font-size: 2vh;
+    margin-bottom: 5px;
+  }
