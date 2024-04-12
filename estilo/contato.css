@@ -56,7 +56,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
+    min-height: 20vh;
+    padding-top: 10px;
     background-color: var(--cor4);
 }
 
@@ -65,7 +66,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px 35px;
+    padding: 10px 25px;
     background-color: var(--cor5);
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -74,7 +75,7 @@ section{
 
 section h2{
     font-size: 2em;
-    margin:1rem;
+    margin: 1rem;
     font-family: var(--fonte-viagem);
 }
 
