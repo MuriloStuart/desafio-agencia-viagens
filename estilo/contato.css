@@ -134,3 +134,79 @@ form button:hover{
     border-radius: 12px;
     font-size: larger;
 }
+
+/* PAGINA DO OBRIGADO */
+
+.main{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    min-height: vh;
+    flex-direction: column;
+    
+}
+
+.text {
+    font-family: var(--fonte-padrao);
+}
+.paragrafo{
+    font-family: var(--fonte-padrao);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.link{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.279) 0px 7px 29px 0px;
+
+}
+
+.link:hover{
+    background-color: var(--cor5);
+    color: black;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.279) 0px 7px 29px 0px;
+}
+
+footer{
+    background-color: var(--cor3);
+    text-align: center;
+    color: rgb(230, 229, 229);
+    box-shadow: black 4px -2px 4px;
+    border-top: 1px solid #333;
+   bottom: 0;
+   left: 0;
+   position: fixed;
+   width: 100%;
+  }
+  footer>p{
+    font-size: 3vh;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: rgb(230, 229, 229);
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 3vh;
+  }
+
+  footer li{
+    padding: 2px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  i{
+    font-size: 2vh;
+    margin-bottom: 5px;
+  }

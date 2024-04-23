@@ -28,6 +28,8 @@
    font-family: var(--fonte-padrao);
  }
 
+ /* conteudo principal*/
+
 header{
     font-family: var(--fonte-padrao);
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor3));
@@ -73,21 +75,6 @@ header{
    text-decoration: underline;
    padding: 15px;;
  }
-
- nav a{
-  text-decoration: none;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  margin-right: 20px;
-  font-size: 1em;
-  background-color: black;
-  padding: 5px;
-  border-radius: 5px;
- }
-
- nav>a:hover{
-  background-color: #93A8AC;
- }
  
  .intro > p{
   text-align: justify;
@@ -118,6 +105,9 @@ header{
     color: black;
     font-weight: bold;
   }
+  
+   
+  /* Rodape */
   footer{
     background-color: var(--cor3);
     text-align: center;
